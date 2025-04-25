@@ -1,0 +1,16 @@
+# Ignore build output
+dist
+build
+out
+
+# Ignore dependencies
+node_modules
+
+# Ignore configuration files (if needed)
+*.lock
+package-lock.json
+yarn.lock
+
+# Ignore specific files or folders
+coverage
+.next
