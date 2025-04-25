@@ -80,15 +80,11 @@ const Footer = () => {
   return (
     <footer className="bg-white text-gray-700 pt-12 md:pt-16 lg:pt-20">
       <div className="container mx-auto px-4">
-        {/* Top section: Contact Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-12 md:mb-16 pb-8">
-          {/* Icon on top of text and centered on small screens */}
           <div className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left">
-            {/* Icon div - added mb-2 for space below icon on small, adjusted md margins */}
             <div className="flex-shrink-0 text-[#c00000] mb-2 md:mr-3 md:mb-0">
               <FaMapMarkerAlt className="w-6 h-6" />
             </div>
-            {/* Text content div */}
             <div>
               <h4 className="font-bold mb-1">
                 Find us
@@ -100,13 +96,10 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Icon on top of text and centered on small screens */}
           <div className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left">
-            {/* Icon div - added mb-2 for space below icon on small, adjusted md margins */}
             <div className="flex-shrink-0 text-[#c00000] mb-2 md:mr-3 md:mb-0">
               <FaPhoneAlt className="w-6 h-6" />
             </div>
-            {/* Text content div */}
             <div>
               <h4 className="font-bold mb-1">
                 Call us
@@ -117,13 +110,10 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Icon on top of text and centered on small screens */}
           <div className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left">
-            {/* Icon div - added mb-2 for space below icon on small, adjusted md margins */}
             <div className="flex-shrink-0 text-[#c00000] mb-2 md:mr-3 md:mb-0">
               <BiEnvelopeOpen className="w-6 h-6" />
             </div>
-            {/* Text content div */}
             <div>
               <h4 className="font-bold mb-1">
                 Mail us
@@ -135,9 +125,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom section: Logo, Socials, and Navigation Links */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 lg:gap-16 pb-8 md:pb-12">
-          {/* Logo and Follow Us Section - Centers content on small screens already */}
           <div className="md:col-span-1 flex flex-col items-center md:items-start">
             <div className="flex flex-col items-center md:items-start">
               <div
@@ -195,22 +183,15 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Navigation Links Section */}
           <div className="md:col-span-3 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 lg:gap-16">
-            {/* Company Section */}
             <div className="grid grid-cols-1 md:col-span-2">
-              {/* Heading and Line - centered on small screens, left on md+ */}
               <div className="text-center md:text-left">
                 <h4 className="font-bold mb-1">
                   Company
                 </h4>
-                {/* Short red line - centered on small, left on md+ */}
                 <div className="h-1 w-16 bg-[#c00000] mx-auto md:mx-0"></div>
               </div>
-              {/* Inner grid for Company links */}
-              {/* Link lists text centered on small screens, left on md+ */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 md:text-left mt-2">
-                {/* First Company Column - text centered on small */}
                 <div className="text-center md:text-left">
                   <ul>
                     {companyLinks.map(
@@ -232,7 +213,6 @@ const Footer = () => {
                     )}
                   </ul>
                 </div>
-                {/* Second Company Column - text centered on small */}
                 <div className="text-center md:text-left">
                   <ul>
                     {companyMoreLinks.map(
@@ -257,20 +237,14 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Our Services Section */}
             <div className="grid grid-cols-1 md:col-span-2">
-              {/* Heading and Line - centered on small screens, left on md+ */}
               <div className="text-center md:text-left">
                 <h4 className="font-bold mb-1">
                   Our Services
                 </h4>
-                {/* Short red line - centered on small, left on md+ */}
                 <div className="h-1 w-16 bg-[#c00000] mx-auto md:mx-0"></div>
               </div>
-              {/* Inner grid for Service links */}
-              {/* Link lists text centered on small screens, left on md+ */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 md:text-left mt-2">
-                {/* First Our Services Column (Tax, Advisory, etc.) - text centered on small */}
                 <div className="text-center md:text-left">
                   <ul>
                     {servicesColumn1Links.map(
@@ -292,8 +266,6 @@ const Footer = () => {
                     )}
                   </ul>
                 </div>
-                {/* Second Our Services Column (Legal, Risk Assurance, etc.) - text centered on small */}
-                {/* Added text-center to this div */}
                 <div className="text-center md:text-left">
                   <ul>
                     {servicesColumn2Links.map(
@@ -321,8 +293,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Scroll to Top Button - Centered horizontally on all screen sizes */}
-      {/* Removed ml-2 and added mx-auto */}
       <div
         className="bg-[#c00000] text-white py-4 flex items-center cursor-pointer mx-auto"
         onClick={() =>
