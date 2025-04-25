@@ -1,3 +1,4 @@
+
 const RequestServiceForm = () => {
   const serviceOptions = [
     'Financial Audit',
@@ -16,9 +17,10 @@ const RequestServiceForm = () => {
     'Word Of Mouth',
   ];
 
+
   return (
-    <section className="bg-gray-100 px-45 py-16 px-4 md:py-24">
-      <div className="px-4">
+    <section className="bg-gray-100 py-16 md:py-24">
+      <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-black mb-12 text-center md:text-left">
           Request Service
         </h2>
@@ -183,7 +185,7 @@ const RequestServiceForm = () => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.248-.99m3.177 2.445v-.001m-1.418 7.81m-4.99-.998l-.75 3.02A.75.75 0 0 0 3 20.25v-4.992m0 0h4.992m-4.993 0 3.248-.99m3.177 2.445h3.362m-1.455 8.41l.359-.359A.75.75 0 0 0 9.75 21H9a2.25 2.25 0 0 1-2.25-2.25V15m0 0v-.108A2.25 2.25 0 0 1 7.5 12.75H9.75m0 0a9.765 9.765 0 0 1 9.75 9.75v.001m-8.41-8.41l.359-.359A.75.75 0 0 0 21 14.25V15m0 0a2.25 2.25 0 0 1-2.25 2.25H15M15 15l-.36.359a.75.75 0 0 0-.234.651v3.362m0 0H9.75"
+                      d="M16.023 9.348h4.992v-.001m0 0h-4.992m4.992 0 3.248-.99m3.177 2.445v-.001m-1.418 7.81m-4.99-.998l-.75 3.02A.75.75 0 0 0 3 20.25v-4.992m0 0h4.992m-4.993 0 3.248-.99m3.177 2.445h3.362m-1.455 8.41l.359-.359A.75.75 0 0 0 9.75 21H9a2.25 2.25 0 0 1-2.25-2.25V15m0 0v-.108A2.25 2.25 0 0 1 7.5 12.75H9.75m0 0a9.765 9.765 0 0 1 9.75 9.75v.001m-8.41-8.41l.359-.359A.75.75 0 0 0 21 14.25V15m0 0a2.25 2.25 0 0 1-2.25 2.25H15M15 15l-.36.359a.75.75 0 0 0-.234.651v3.362m0 0H9.75"
                     />
                   </svg>
                 </div>

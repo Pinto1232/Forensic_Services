@@ -1,8 +1,8 @@
-import { useState } from 'react'; // Removed explicit React import
+import { useState } from 'react';
 
 const ForensicsContactSection = () => {
   const [openIndex, setOpenIndex] =
-    useState<number | null>(null); // Added type annotation for state
+    useState<number | null>(null);
 
   const services = [
     {
@@ -66,12 +66,12 @@ const ForensicsContactSection = () => {
 
                     {openIndex ===
                       index && (
-                      <div className="pb-4 text-gray-400 text-sm leading-relaxed">
-                        {
-                          service.details
-                        }
-                      </div>
-                    )}
+                        <div className="pb-4 text-gray-400 text-sm leading-relaxed">
+                          {
+                            service.details
+                          }
+                        </div>
+                      )}
                   </li>
                 )
               )}

@@ -52,13 +52,11 @@ const ForensicTaxServices = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {services.map(
             (service, index) => {
-              // Check if the current service is one of the specified sections (1, 3, or 5)
               const isSpecifiedSection =
                 index === 0 ||
                 index === 2 ||
                 index === 4;
 
-              // Determine color classes based on whether it's a specified section
               const numberColorClass =
                 isSpecifiedSection
                   ? 'text-black'
@@ -74,13 +72,11 @@ const ForensicTaxServices = () => {
                   className=" p-12 border border-gray-100"
                 >
                   <h3 className="text-xl font-bold mb-3">
-                    {/* Apply conditional color to the number */}
                     <span
                       className={`${numberColorClass} mr-2`}
                     >
                       {service.number}
                     </span>
-                    {/* Apply conditional color to the title */}
                     <span
                       className={
                         textColorClass
