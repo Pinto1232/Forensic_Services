@@ -37,7 +37,7 @@ export const HeaderBanner = () => {
   return (
     <div className="relative">
       <div
-        className="relative flex bg-black px-4 py-32 h-[50vh] min-h-[700px]"
+        className="relative flex bg-black px-4 py-32 h-[50vh] min-h-[700px] sm:px-4"
         style={{
           backgroundImage:
             "url('/banned.png')",

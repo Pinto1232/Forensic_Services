@@ -66,12 +66,12 @@ const ForensicsContactSection = () => {
 
                     {openIndex ===
                       index && (
-                        <div className="pb-4 text-gray-400 text-sm leading-relaxed">
-                          {
-                            service.details
-                          }
-                        </div>
-                      )}
+                      <div className="pb-4 text-gray-400 text-sm leading-relaxed">
+                        {
+                          service.details
+                        }
+                      </div>
+                    )}
                   </li>
                 )
               )}
